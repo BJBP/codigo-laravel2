@@ -7,18 +7,18 @@ text-decoration: underline;
 </style>
 </head>
 <body>
-<h1>Home</h1>
+<!-- <h1>Home</h1> -->
 <body>
 <nav>
-{{dump(request()->routeIs('home'))}}
+<!-- {{dump(request()->routeIs('home'))}} -->
 <table class="table">
 <thead class="table table-bordered">
-<tr>
+<!-- <tr>
 <th scope="col" class="{{ setActivo('home') }}"><a href="/">Home</a></th>
 <th scope="col" class="{{ setActivo('nosotros') }}"> <a href="nosotros">Nosotros</a></th>
 <th scope="col" class="{{ setActivo('servicios') }}"><a href="servicios">Servicios</a></th>
 <th scope="col" class="{{ setActivo('contacto') }}"> <a href="contacto">Contacto</a></th>
-</tr>
+</tr> -->
 </thead>
 </body>
 </nav>
