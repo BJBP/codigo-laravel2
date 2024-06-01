@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ServiciosController extends Controller
 {
-    public function servicios(){
+    public function index(){
 
         $servicios = [
         ['titulo' => 'Servicio 01'],
